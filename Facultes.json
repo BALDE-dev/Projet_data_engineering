@@ -1,0 +1,60 @@
+[
+    {
+        "Facultes": [
+            {
+                "id": 1,
+                "nom": "Faculté des Sciences et Techniques (FST)",
+                "Filieres": [
+                    {
+                        "id": 101,
+                        "nom": "Informatique Générale"
+                    },
+                    {
+                        "id": 102,
+                        "nom": "Mathématique Appliquée"
+                    },
+                    {
+                        "id": 103,
+                        "nom": "Sciences de la Vie et de la Terre"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "nom": "Faculté des Lettres et Sciences Humaines (FLSH)",
+                "Filieres": [
+                    {
+                        "id": 201,
+                        "nom": "Histoire et Civilisations Africaines"
+                    },
+                    {
+                        "id": 202,
+                        "nom": "Philosophie"
+                    },
+                    {
+                        "id": 203,
+                        "nom": "Sociologie"
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "nom": "Faculté des Sciences Économiques et de Gestion (FASEG)",
+                "Filieres": [
+                    {
+                        "id": 301,
+                        "nom": "Économie Générale"
+                    },
+                    {
+                        "id": 302,
+                        "nom": "Gestion des Entreprises"
+                    },
+                    {
+                        "id": 303,
+                        "nom": "Comptabilité et Finance"
+                    }
+                ]
+            }
+        ]
+    }
+]
