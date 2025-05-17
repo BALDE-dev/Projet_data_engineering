@@ -1,0 +1,64 @@
+USE Gestion_notes_etudiants;
+
+SELECT * FROM Facultes;
+
+INSERT INTO Facultes (nom_faculte, date_creation, description_faculte)
+VALUES
+('Faculté des Sciences et Techniques (FST)','2013-01-25','Forme des scientifiques et ingénieurs dans des disciplines techniques'),
+('Faculté des Lettres et Sciences Humaines (FLSH)','2016-10-21','Dédiée à l étude des sciences sociales de la culture et des humanités'),
+('Faculté des Sciences Économiques et de Gestion (FASEG)','2019-12-08', 'Prépare les étudiants aux carrières dans le secteur économique et entrepreneurial');
+
+SELECT * FROM Filieres;
+
+INSERT INTO Filieres (id_faculte,nom_filiere,date_creation,description_filiere)
+VALUES
+(1,'Informatique Générale','2023-12-18','Filière qui gère tout ce qui est technologie de l information et de la communication'),
+(1,'Mathématique Appliquée','2022-06-18','Filière de recherche et développement dans le domaine des mathématique'),
+(1,'Sciences de la Vie et de la Terre','2017-04-18','Filière qui étudie les sciences de la vie et de la terre'),
+(2,'Histoire et Civilisations Africaines','2020-03-18','Filière qui se concentre sur l étude de l histoire et de la civilisation noire'),
+(2,'Philosophie','2016-06-22','Filière qui étudie les questions fondamentales de l existence humaine'),
+(2,'Sociologie','2021-12-03','Filière qui analyse les comportements sociaux et les structures de la société'),
+(3,'Économie Générale','2021-03-13','Filière académique qui étudie les principes économiques fondamentaux'),
+(3,'Gestion des Entreprises','2021-03-21','Filière académique qui prépare les étudiants à la gestion d entreprise'),
+(3,'Comptabilité et Finance','2021-06-16','Filière académique qui prépare les étudiants à la comptabilité et à la finance');
+
+INSERT INTO Cours (nom_cours, credit, date_creation, description_cours, semestre)
+VALUES
+('Algorithmique et Structures de Données',4,'28-02-2016','Introduction aux techniques de résolution de problèmes et aux structures de données fondamentales en Informatique',2),
+('Programmation en Python',4,'13-07-2023','Apprentissage des bases de la programmation avec Python pour le traitement de données et l’automatisation',1),
+('Architecture des Ordinateurs',4,'15-04-2023','Étude des composants matériels d’un ordinateur et de leur fonctionnement interne',2),
+('Systèmes d’Exploitation',3,'24-06-2020','Exploration des concepts de base des systèmes comme Linux ou Windows : gestion de mémoire processus fichiers',1),
+('Bases de Données',5,'16-09-2022','Concepts de modélisation et manipulation de bases de données avec SQL et systèmes comme MySQL/PostgreSQL',1),
+('Mathématiques',2,'16-07-2023','Fonctions limites continuité dérivabilité et applications à l’étude de phénomènes réels',1),
+('Probabilités et Statistiques',5,'04-09-2021','Outils de base pour modéliser l’incertitude et analyser des données statistiques',1),
+('Algèbre Linéaire',5,'23-12-2022','Étude des espaces vectoriels matrices déterminants et applications',2),
+('Biologie Cellulaire',3,'11-09-2023','Structure et fonctionnement des cellules animales et végétales',1),
+('Microbiologie',3,'17-06-2021','Observation et compréhension des micro-organismes et leurs interactions avec l’environnement',2),
+('Génétique',4,'24-01-2022','Mécanismes de l’hérédité et de la transmission des caractères biologiques',1),
+('Géologie',5,'22-11-2023','Étude des roches minéraux et processus géologiques de la Terre',1),
+('Méthodologie Historique',5,'13-06-2023','Techniques de recherche critique des sources et rédaction historique',2),
+('Histoire du Sénégal',3,'02-03-2024','Évolution politique économique et sociale du Sénégal de l’époque précoloniale à nos jours',2),
+('Archives et Patrimoine',5,'02-07-2021','Conservation gestion et valorisation des archives et du patrimoine historique',2),
+('Histoire de l’Afrique Précoloniale',4,'23-03-2021','Analyse des grandes civilisations africaines avant la colonisation',2),
+('Histoire de la Philosophie Antique',3,'08-07-2020','Étude des penseurs grecs comme Platon Aristote et leur influence',2),
+('Philosophie Africaine',3,'25-12-2022','Courants de pensée africains et leur contribution à la philosophie mondiale',2),
+('Philosophie Politique',4,'23-01-2024','Concepts de justice pouvoir autorité liberté dans l’organisation des sociétés',2),
+('Introduction à la Sociologie',3,'15-05-2022','Concepts de base pour comprendre la société et les relations humaine',1),
+('Méthodes de Recherche en Sciences Sociales',2,'04-05-2022','Techniques d’enquêtes observations entretiens et analyse des données',1),
+('Sociologie de la Famille',4,'05-01-2023','Analyse des structures familiales et des dynamiques sociales',2),
+('Microéconomie',3,'14-02-2023','Comportement des consommateurs et des producteurs sur les marchés',1),
+('Macroéconomie',3,'27-02-2022','Étude des phénomènes économiques globaux : inflation chômage croissance',2),
+('Économie Monétaire',5,'02-06-2021','Rôle de la monnaie des banques et des politiques monétaires',2),
+('Management des Organisations',2,'17-05-2021','Principes de direction organisation et gestion des entreprises',2),
+('Gestion des Ressources Humaines',2,'11-04-2022','Recrutement formation motivation et performance du personnel',2),
+('Comportement Organisationnel',3,'15-09-2020','Analyse des comportements individuels et collectifs dans une entreprise',2),
+('Entrepreneuriat',4,'08-02-2021','Création d’entreprise innovation et développement d’un projet',1);
+
+INSERT INTO Niveaux (nom_niveau,description_niveau)
+VALUES
+('L1','Première année universitaire'),
+('L2','Deuxième année universitaire'),
+('L3','Troisième et dernière année de licence'),
+('M1','Première année de Master'),
+('M2','Deuxième et dernière année de Master');
+
