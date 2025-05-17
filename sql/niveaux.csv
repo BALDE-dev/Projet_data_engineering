@@ -1,0 +1,6 @@
+nom_niveau,description_niveau
+('L1','Première année universitaire'),
+('L2','Deuxième année universitaire'),
+('L3','Troisième et dernière année de licence'),
+('M1','Première année de Master'),
+('M2','Deuxième et dernière année de Master');

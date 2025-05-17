@@ -1,0 +1,10 @@
+id_faculte,nom_filiere,date_creation,description_filiere
+1,Informatique Générale,2023-12-18,Filière qui gère tout ce qui est technologie de l'information et de la communication.
+1,Mathématique Appliquée,2022-06-18,Filière de recherche et développement dans le domaine des mathématiques.
+1,Sciences de la Vie et de la Terre,2017-04-18,Filière qui étudie les sciences de la vie et de la terre.
+2,Histoire et Civilisations Africaines,2020-03-18,Filière qui se concentre sur l'étude de l'histoire et de la civilisation noire.
+2,Philosophie,2016-06-22,Filière qui étudie les questions fondamentales de l'existence humaine.
+2,Sociologie,2021-12-03,Filière qui analyse les comportements sociaux et les structures de la société.
+3,Économie Générale,2021-03-13,Filière académique qui étudie les principes économiques fondamentaux.
+3,Gestion des Entreprises,2021-03-21,Filière académique qui prépare les étudiants à la gestion d'entreprise.
+3,Comptabilité et Finance,2021-06-16,Filière académique qui prépare les étudiants à la comptabilité et à la finance.
